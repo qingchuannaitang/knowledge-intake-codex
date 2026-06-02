@@ -1,0 +1,35 @@
+.knowledge-intake-view {
+  padding: 8px;
+}
+
+.knowledge-intake-row {
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding: 10px 0;
+}
+
+.knowledge-intake-path {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.knowledge-intake-meta {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  margin-top: 4px;
+}
+
+.knowledge-intake-error {
+  background: var(--background-secondary);
+  color: var(--text-error);
+  font-size: var(--font-ui-smaller);
+  max-height: 160px;
+  overflow: auto;
+  padding: 8px;
+  white-space: pre-wrap;
+}
+
+.knowledge-intake-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}

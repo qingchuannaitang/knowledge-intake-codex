@@ -1,0 +1,26 @@
+{
+  "name": "knowledge-intake-codex",
+  "version": "0.1.0",
+  "description": "Obsidian desktop plugin that turns newly added files into atomic notes with Codex or OpenAI.",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc --noEmit --skipLibCheck && node esbuild.config.mjs production",
+    "dev": "node esbuild.config.mjs",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "obsidian",
+    "codex",
+    "second-brain",
+    "atomic-notes"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "esbuild": "^0.23.0",
+    "obsidian": "latest",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.5"
+  }
+}

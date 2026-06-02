@@ -1,0 +1,10 @@
+{
+  "id": "knowledge-intake-codex",
+  "name": "Knowledge Intake Codex",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Automatically turns new vault files into linked atomic notes using Codex or OpenAI.",
+  "author": "",
+  "authorUrl": "",
+  "isDesktopOnly": true
+}
